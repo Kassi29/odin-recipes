@@ -1,0 +1,36 @@
+#title,
+p,
+.container-title {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-title {
+  background-color: rgba(255, 238, 216, 0.697);
+  text-align: center;
+}
+#title {
+  padding: 10px;
+  color: rgb(172, 169, 59);
+  font-size: 50px;
+}
+
+p {
+  margin: 10px;
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
+  list-style-type: georgian;
+}
+
+ul li::marker {
+  color: rgb(172, 169, 59);
+}
+
+a {
+  text-decoration: underline;
+  color: rgb(172, 169, 59);
+}

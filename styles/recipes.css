@@ -1,0 +1,53 @@
+*:not(ul):not(li):not(p):not(ol) {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-title {
+  background-color: rgba(255, 238, 216, 0.697);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+#title {
+  padding: 10px;
+  color: rgb(172, 169, 59);
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+.image {
+  margin: 10px;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+p {
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.sub {
+  font-family: "Roboto", sans-serif;
+  margin: 10px;
+  color: rgb(172, 169, 59);
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
+  list-style-type: georgian;
+}
+
+ul li::marker {
+  color: rgb(172, 169, 59);
+}
+
+ol {
+  font-family: "Roboto", sans-serif;
+  list-style-type: decimal;
+}
+ol li::marker {
+  color: rgb(172, 169, 59);
+}
